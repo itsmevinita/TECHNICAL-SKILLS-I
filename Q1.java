@@ -1,7 +1,6 @@
 //given an array count no of an element having at least one grater than itself.
 class Main {
     public static void main(String[] args) {
-
         int[] arr = { 3, 1, 4, 2 };
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
@@ -28,3 +27,4 @@ class Main {
 // appears.
 // 6. Calculate the result by subtracting 'countMax' from the total length of
 // the array.
+
