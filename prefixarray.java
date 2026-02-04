@@ -1,7 +1,6 @@
 
 // Q2.find the sum of prefixsum array
 import java.util.Scanner;
-
 public class prefixarray {
     public static void main(String agrs[]) {
         Scanner a = new Scanner(System.in);
@@ -26,16 +25,15 @@ public class prefixarray {
                 LS = pf[i - 1];
             }
             RS = pf[n - 1] - pf[i];
-            System.out.println("Left Sum =" + LS + ",Right Sum=" + RS);
-
+            System.out.println("Left Sum =" + LS + ", RightSum=" + RS);
             if (LS == RS) {
                 count++;
                 System.out.println("Equilibrium found at index " + count);
-
             } else {
                 System.out.println("no equilibrium found at index" + i);
             }
         }
 
     }
+
 }
